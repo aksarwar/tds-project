@@ -10,23 +10,23 @@
 1.users.csv: Contains information about 693 GitHub users in Toronto with over 100 followers  
 2.repositories.csv: Contains information about 55778 public repositories from these users  
 
-# Data Collection Overview
+# Data Collection Overview  
 Method: Data gathered through the GitHub API  
 Collection Date: October 28, 2024  
 Criteria: Included only users with over 100 followers  
 Repository Limit: Captured up to 500 of the most recently updated repositories for each user  
 
-# Usage
-Setup: Ensure you have a valid GitHub API token to handle authenticated requests and install Python’s requests library to enable API calls.
-Scripts: First, run get_users_csv.py to generate users.csv, which will include user data like login, bio, followers, and company. Then, execute get_repos_csv.py to create repositories.csv with repository-specific details like stars, language, and license type.
-Data Structure: The dataset contains user information, including location, follower count, bio, and public repository stats, as well as repository details like primary language, license, and stargazer count, enabling a detailed analysis of popularity factors.
+# Usage  
+Setup: Ensure you have a valid GitHub API token to handle authenticated requests and install Python’s requests library to  enable API calls.  
+Scripts: First, run get_users_csv.py to generate users.csv, which will include user data like login, bio, followers, and company. Then, execute get_repos_csv.py to create repositories.csv with repository-specific details like stars, language, and license type.  
+Data Structure: The dataset contains user information, including location, follower count, bio, and public repository stats, as well as repository details like primary language, license, and stargazer count, enabling a detailed analysis of popularity factors.  
 
-# Analysis Overview
-Follower Patterns: Users with medium-length bios (10-20 words) appear to have higher follower counts, suggesting that bios which balance informativeness with brevity might be more appealing.
-Company Influence: Affiliation with well-known companies tends to correlate with higher follower counts, indicating potential brand influence on a developer’s visibility within the GitHub community.
-Licensing Trends: MIT is the most common open-source license used by Toronto-based developers, with other permissive licenses like Apache and BSD also present. This trend suggests a community preference for sharing and collaboration.
+# Analysis Overview  
+Follower Patterns: Users with medium-length bios (10-20 words) appear to have higher follower counts, suggesting that bios which balance informativeness with brevity might be more appealing.  
+Company Influence: Affiliation with well-known companies tends to correlate with higher follower counts, indicating potential brand influence on a developer’s visibility within the GitHub community.  
+Licensing Trends: MIT is the most common open-source license used by Toronto-based developers, with other permissive licenses like Apache and BSD also present. This trend suggests a community preference for sharing and collaboration.  
 
-# Insight & Recommendation
-Insight: Developers using relevant, recognizable industry keywords in their bios are more likely to attract attention, likely because such terms align with common search queries or trends. This finding suggests that aligning bios with popular topics can improve profile visibility.
+# Insight & Recommendation  
+Insight: Developers using relevant, recognizable industry keywords in their bios are more likely to attract attention, likely because such terms align with common search queries or trends. This finding suggests that aligning bios with popular topics can improve profile visibility.  
 
 Recommendation: Developers should thoughtfully curate their bios, incorporating specific, relevant keywords without overloading on details. Regularly updating repositories and using trending tags in project descriptions or names could further improve search ranking, helping developers grow their follower base organically.
