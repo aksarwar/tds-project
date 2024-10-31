@@ -9,6 +9,8 @@
 # files
 1.users.csv: Contains information about 693 GitHub users in Toronto with over 100 followers  
 2.repositories.csv: Contains information about 55778 public repositories from these users  
+3.fetch.py:The fetch.py file contains a GitHub scraper implemented in Python, which uses a GitHub API token to fetch and process data from GitHub, likely to extract repositories or user data, using libraries such as requests and pandas for handling requests and data manipulation.    
+4.project1.ipynb: notebook provides solutions to a series of data analysis questions, using Python and pandas to process and analyze user and repository data from CSV files.
 
 # Data Collection Overview  
 Method: Data gathered through the GitHub API  
