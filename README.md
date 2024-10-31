@@ -20,12 +20,16 @@ Repository Limit: Captured up to 500 of the most recently updated repositories f
 
 # Usage  
 Setup: Ensure you have a valid GitHub API token to handle authenticated requests and install Python’s requests library to  enable API calls.  
+
 Scripts: First, run get_users_csv.py to generate users.csv, which will include user data like login, bio, followers, and company. Then, execute get_repos_csv.py to create repositories.csv with repository-specific details like stars, language, and license type.  
+
 Data Structure: The dataset contains user information, including location, follower count, bio, and public repository stats, as well as repository details like primary language, license, and stargazer count, enabling a detailed analysis of popularity factors.  
 
 # Analysis Overview  
 Follower Patterns: Users with medium-length bios (10-20 words) appear to have higher follower counts, suggesting that bios which balance informativeness with brevity might be more appealing.  
+
 Company Influence: Affiliation with well-known companies tends to correlate with higher follower counts, indicating potential brand influence on a developer’s visibility within the GitHub community.  
+
 Licensing Trends: MIT is the most common open-source license used by Toronto-based developers, with other permissive licenses like Apache and BSD also present. This trend suggests a community preference for sharing and collaboration.  
 
 # Insight & Recommendation  
