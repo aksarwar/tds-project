@@ -7,8 +7,9 @@
 3.Actionable Recommendation: Developers should create concise bios that highlight key skills or trending fields like "machine learning" and maintain active repositories to improve visibility and attract followers.
 
 # files
-1.users.csv: Contains information about 693 GitHub users in Toronto with over 100 followers
-2.repositories.csv: Contains information about 55778 public repositories from these users
+1.users.csv: Contains information about 693 GitHub users in Toronto with over 100 followers  
+
+2.repositories.csv: Contains information about 55778 public repositories from these users  
 
 # Data Collection Overview
 Method: Data gathered through the GitHub API
