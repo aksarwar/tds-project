@@ -1,4 +1,4 @@
-#GitHub Users in Toronto
+# GitHub Users in Toronto
 
 1.Data Scraping Process: Used Python’s requests library to interact with the GitHub API, querying /search/users for Toronto-based developers by location and follower count, and gathering detailed profile and repository data using /users/{username} and /users/{username}/repos endpoints.
 
