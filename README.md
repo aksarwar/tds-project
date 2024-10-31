@@ -8,14 +8,13 @@
 
 # files
 1.users.csv: Contains information about 693 GitHub users in Toronto with over 100 followers  
-
 2.repositories.csv: Contains information about 55778 public repositories from these users  
 
 # Data Collection Overview
-Method: Data gathered through the GitHub API
-Collection Date: October 28, 2024
-Criteria: Included only users with over 100 followers
-Repository Limit: Captured up to 500 of the most recently updated repositories for each user
+Method: Data gathered through the GitHub API  
+Collection Date: October 28, 2024  
+Criteria: Included only users with over 100 followers  
+Repository Limit: Captured up to 500 of the most recently updated repositories for each user  
 
 # Usage
 Setup: Ensure you have a valid GitHub API token to handle authenticated requests and install Python’s requests library to enable API calls.
